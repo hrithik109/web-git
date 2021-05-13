@@ -1,0 +1,102 @@
+body{
+	background-image: url('../images/signin.jpg');
+}
+.container{
+	background-color: #28282B;
+	color: #fff;
+	font-family: oswald;
+	width: 40%;
+	margin-top: 50px;
+	float: right;
+	margin-right: 70px;
+	overflow: hidden;
+}
+
+p a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: oswald;
+}
+.text-line {
+	background-color:transparent;
+	font-family: oswald;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #353935; 
+	margin-top: 5px;
+	width: 100%;
+}
+#email-key{
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 150px;
+	border-radius: 15px;
+	color: #fff;
+	background-color: #0047ab;
+}
+#email-key:hover{
+	width: 200px;
+	text-shadow: 1px 1px white;
+}
+
+div hr{
+	margin-top: 130px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.login-key{
+	width: 50%;
+	color: #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-radius: 25px;
+	margin-left: 25%;
+}
+.login-key:hover{
+	text-shadow: 1px 1px black;
+}
+#google{
+	background-color:transparent;
+}
+#fb{
+	background-color: #3b5998;
+}
+#mac{
+	background-color: #343434;
+}
+
+#policy-info{
+	margin-top: 20px;
+	color: #7393B3;
+}
+/*responsive behaviour*/
+@media (min-width: 663px) and (max-width: 912px){
+	.login-key{
+		width:-webkit-fill-available;
+		margin: auto;
+	}
+}
+
+
+
+@media (max-width: 662px){
+	.container1{
+		width: 100%;
+		margin:auto;
+	}
+	.login-key{
+		width:50%;
+	}
+	.body1{
+		background-image: none;
+		background-color: #28282B;
+	}
+}
